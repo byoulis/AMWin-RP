@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DiscordButton_ListenOnAppleMusic" xml:space="preserve">
+    <value>Ouvir no Apple Music</value>
+  </data>
+  <data name="DiscordButton_ViewArtist" xml:space="preserve">
+    <value>Ver Artista</value>
+  </data>
+  <data name="Message_AppUpdate" xml:space="preserve">
+    <value>Uma nova atualização do AMWin-RP está disponível. Deseja ver as versões?</value>
+  </data>
+  <data name="Message_AppUpdate_Title" xml:space="preserve">
+    <value>Nova atualização disponível</value>
+  </data>
+  <data name="Message_ClearedLyricCache" xml:space="preserve">
+    <value>Todas as letras salvas foram excluídas.</value>
+  </data>
+  <data name="Message_ClearedLyricCache_Title" xml:space="preserve">
+    <value>Letras Excluídas</value>
+  </data>
+  <data name="Message_ClearLyricCache" xml:space="preserve">
+    <value>Tem certeza de que deseja excluir todas as letras salvas?</value>
+  </data>
+  <data name="Message_ClearLyricCache_Fail" xml:space="preserve">
+    <value>Não foi possível excluir as letras: </value>
+  </data>
+  <data name="Message_ClearLyricCache_FailNotFound" xml:space="preserve">
+    <value>Nenhuma letra salva encontrada.</value>
+  </data>
+  <data name="Message_ClearLyricCache_Title" xml:space="preserve">
+    <value>Excluir Letras em Cache</value>
+  </data>
+  <data name="Message_Error" xml:space="preserve">
+    <value>Erro</value>
+  </data>
+  <data name="Message_Information" xml:space="preserve">
+    <value>Informação</value>
+  </data>
+  <data name="Message_LastFM_Authentication_Fail" xml:space="preserve">
+    <value>As credenciais do Last.FM não puderam ser autenticadas. Certifique-se de que o nome de usuário e a senha estão corretos e que sua conta não está bloqueada.</value>
+  </data>
+  <data name="Message_LastFM_Authentication_Success" xml:space="preserve">
+    <value>As credenciais do Last.FM foram autenticadas com sucesso.</value>
+  </data>
+  <data name="Message_LastFM_Authentication_Title" xml:space="preserve">
+    <value>Autenticação do Last.FM</value>
+  </data>
+  <data name="Message_ListenBrainz_Authentication_Fail" xml:space="preserve">
+    <value>As credenciais do ListenBrainz não puderam ser autenticadas. Certifique-se de que o token de usuário está correto.</value>
+  </data>
+  <data name="Message_ListenBrainz_Authentication_Success" xml:space="preserve">
+    <value>As credenciais do ListenBrainz foram autenticadas com sucesso.</value>
+  </data>
+  <data name="Message_ListenBrainz_Authentication_Title" xml:space="preserve">
+    <value>Autenticação do ListenBrainz</value>
+  </data>
+  <data name="Message_No" xml:space="preserve">
+    <value>Não</value>
+  </data>
+  <data name="Message_RestartRequired_Content" xml:space="preserve">
+    <value>Reiniciar agora para aplicar a alteração de idioma?</value>
+  </data>
+  <data name="Message_RestartRequired_Title" xml:space="preserve">
+    <value>Reinicialização Necessária</value>
+  </data>
+  <data name="Message_Yes" xml:space="preserve">
+    <value>Sim</value>
+  </data>
+  <data name="Settings_Discord_EnableRP" xml:space="preserve">
+    <value>Ativar Discord Rich Presence</value>
+  </data>
+  <data name="Settings_Discord_Lyrics_ClearCache" xml:space="preserve">
+    <value>Limpar cache de letras</value>
+  </data>
+  <data name="Settings_Discord_Lyrics_EnableLyrics" xml:space="preserve">
+    <value>Mostrar letras das músicas no Rich Presence</value>
+  </data>
+  <data name="Settings_Discord_Lyrics_OpenCache" xml:space="preserve">
+    <value>Mostrar cache de letras</value>
+  </data>
+  <data name="Settings_Discord_Lyrics_SectionTitle" xml:space="preserve">
+    <value>Letras Sincronizadas</value>
+  </data>
+  <data name="Settings_Discord_Lyrics_ShowDuringBreak" xml:space="preserve">
+    <value>Manter letras durante intervalos instrumentais</value>
+  </data>
+  <data name="Settings_Discord_Lyrics_ShowDuringBreak_Description" xml:space="preserve">
+    <value>Durante intervalos na música, continuar mostrando a última letra reproduzida.</value>
+  </data>
+  <data name="Settings_Discord_SectionTitle" xml:space="preserve">
+    <value>Discord Rich Presence</value>
+  </data>
+  <data name="Settings_Discord_SectionTitleShort" xml:space="preserve">
+    <value>Discord RP</value>
+  </data>
+  <data name="Settings_Discord_ShowAlbumArt" xml:space="preserve">
+    <value>Mostrar capa do álbum</value>
+  </data>
+  <data name="Settings_Discord_ShowAlbumTitle" xml:space="preserve">
+    <value>Mostrar título do álbum</value>
+  </data>
+  <data name="Settings_Discord_ShowAlbumTitle_Description" xml:space="preserve">
+    <value>Mostra o título do álbum abaixo da música e do artista na exibição do Rich Presence.</value>
+  </data>
+  <data name="Settings_Discord_ShowAppleMusicIcon" xml:space="preserve">
+    <value>Mostrar ícone do Apple Music</value>
+  </data>
+  <data name="Settings_Discord_ShowAppleMusicIcon_Description" xml:space="preserve">
+    <value>Mostra o ícone do Apple Music ao lado da capa do álbum na exibição do Rich Presence.</value>
+  </data>
+  <data name="Settings_Discord_ShowWhenPaused" xml:space="preserve">
+    <value>Mostrar quando a música estiver pausada</value>
+  </data>
+  <data name="Settings_Discord_UserStatusDisplay" xml:space="preserve">
+    <value>Mostrar status do Discord como</value>
+  </data>
+  <data name="Settings_Discord_UserStatusDisplay_AppleMusic" xml:space="preserve">
+    <value>Apple Music</value>
+  </data>
+  <data name="Settings_Discord_UserStatusDisplay_Artist" xml:space="preserve">
+    <value>Nome do artista</value>
+  </data>
+  <data name="Settings_Discord_UserStatusDisplay_SongName" xml:space="preserve">
+    <value>Nome da música</value>
+  </data>
+  <data name="Settings_General_AppleMusicRegion" xml:space="preserve">
+    <value>Região do Apple Music</value>
+  </data>
+  <data name="Settings_General_AppleMusicRegion_Description" xml:space="preserve">
+    <value>O código do país da região da sua Conta Apple (ex.: BR).</value>
+  </data>
+  <data name="Settings_General_ComposerAsArtist" xml:space="preserve">
+    <value>Tratar compositor como artista</value>
+  </data>
+  <data name="Settings_General_ComposerAsArtist_Description" xml:space="preserve">
+    <value>Para faixas de música clássica, usar o compositor como artista em vez do intérprete.</value>
+  </data>
+  <data name="Settings_General_Language" xml:space="preserve">
+    <value>Idioma</value>
+  </data>
+  <data name="Settings_General_Language_Description" xml:space="preserve">
+    <value>Reinicie o aplicativo após alterar o idioma para aplicá-lo completamente.</value>
+  </data>
+  <data name="Settings_General_Language_English" xml:space="preserve">
+    <value>Inglês (English)</value>
+  </data>
+  <data name="Settings_General_Language_German" xml:space="preserve">
+    <value>Alemão (Deutsch)</value>
+  </data>
+  <data name="Settings_General_Language_Japanese" xml:space="preserve">
+    <value>Japonês (日本語)</value>
+  </data>
+  <data name="Settings_General_Language_Korean" xml:space="preserve">
+    <value>Coreano (한국어)</value>
+  </data>
+  <data name="Settings_General_Language_Latam" xml:space="preserve">
+    <value>Espanhol - América Latina (Español de Latinoamérica)</value>
+  </data>
+  <data name="Settings_General_Language_PortugueseBrazil" xml:space="preserve">
+    <value>Português (Brasil)</value>
+  </data>
+  <data name="Settings_General_Language_Russian" xml:space="preserve">
+    <value>Russo (Русский)</value>
+  </data>
+  <data name="Settings_General_Language_Spanish" xml:space="preserve">
+    <value>Espanhol - Espanha (Español de España)</value>
+  </data>
+  <data name="Settings_General_Language_System" xml:space="preserve">
+    <value>Padrão do sistema (System default)</value>
+  </data>
+  <data name="Settings_General_Language_Turkish" xml:space="preserve">
+    <value>Turco (Türkçe)</value>
+  </data>
+  <data name="Settings_General_RunOnWindowsStartup" xml:space="preserve">
+    <value>Executar quando o Windows iniciar</value>
+  </data>
+  <data name="Settings_General_SectionTitle" xml:space="preserve">
+    <value>Geral</value>
+  </data>
+  <data name="Settings_General_TooltipAppleMusicRegionError" xml:space="preserve">
+    <value>Código de região inválido</value>
+  </data>
+  <data name="Settings_General_UpdateOnStartup" xml:space="preserve">
+    <value>Verificar atualizações ao iniciar</value>
+  </data>
+  <data name="Settings_Scrobbling_CleanAlbumName" xml:space="preserve">
+    <value>Limpar nome do álbum</value>
+  </data>
+  <data name="Settings_Scrobbling_CleanAlbumName_Description" xml:space="preserve">
+    <value>Remover sufixos comuns como "Single" e "EP" dos nomes dos álbuns.</value>
+  </data>
+  <data name="Settings_Scrobbling_CleanSongName" xml:space="preserve">
+    <value>Limpar nome da música</value>
+  </data>
+  <data name="Settings_Scrobbling_CleanSongName_Description" xml:space="preserve">
+    <value>Remover texto extra dos nomes das músicas (ex.: "(Mixed)", "[Mixed]")</value>
+  </data>
+  <data name="Settings_Scrobbling_LastFM_ApiKey" xml:space="preserve">
+    <value>Chave da API</value>
+  </data>
+  <data name="Settings_Scrobbling_LastFM_ApiSecret" xml:space="preserve">
+    <value>Segredo da API</value>
+  </data>
+  <data name="Settings_Scrobbling_LastFM_Enable" xml:space="preserve">
+    <value>Ativar scrobbling do Last.FM</value>
+  </data>
+  <data name="Settings_Scrobbling_LastFM_Password" xml:space="preserve">
+    <value>Senha</value>
+  </data>
+  <data name="Settings_Scrobbling_LastFM_SaveCredentials" xml:space="preserve">
+    <value>Salvar credenciais</value>
+  </data>
+  <data name="Settings_Scrobbling_LastFM_SectionTitle" xml:space="preserve">
+    <value>Last.FM</value>
+  </data>
+  <data name="Settings_Scrobbling_LastFM_Username" xml:space="preserve">
+    <value>Nome de usuário</value>
+  </data>
+  <data name="Settings_Scrobbling_ListenBrainz_Enable" xml:space="preserve">
+    <value>Ativar scrobbling do ListenBrainz</value>
+  </data>
+  <data name="Settings_Scrobbling_ListenBrainz_SectionTitle" xml:space="preserve">
+    <value>ListenBrainz</value>
+  </data>
+  <data name="Settings_Scrobbling_ListenBrainz_UserToken" xml:space="preserve">
+    <value>Token de usuário</value>
+  </data>
+  <data name="Settings_Scrobbling_ScrobblePrimaryArtist" xml:space="preserve">
+    <value>Scrobblar apenas o primeiro artista</value>
+  </data>
+  <data name="Settings_Scrobbling_ScrobbleTime" xml:space="preserve">
+    <value>Tempo máximo de espera para scrobble:</value>
+  </data>
+  <data name="Settings_Scrobbling_ScrobbleTime_Description" xml:space="preserve">
+    <value>Após esse tempo, faça o scrobble da música se ainda não tiver sido feito.</value>
+  </data>
+  <data name="Settings_Scrobbling_SectionTitle" xml:space="preserve">
+    <value>Scrobbling</value>
+  </data>
+  <data name="Settings_Scrobbling_SectionTitleShort" xml:space="preserve">
+    <value>Scrobbling</value>
+  </data>
+  <data name="Settings_Scrobbling_SongDurationChoice" xml:space="preserve">
+    <value>Usar duração da música do site do Apple Music</value>
+  </data>
+  <data name="Settings_Scrobbling_SongDurationChoice_Description" xml:space="preserve">
+    <value>Obter a duração da música do site do Apple Music em vez do site do Last.FM. Mais lento, mas pode produzir melhores resultados.</value>
+  </data>
+  <data name="Settings_TimeUnitSeconds" xml:space="preserve">
+    <value>seg</value>
+  </data>
+  <data name="Settings_Title" xml:space="preserve">
+    <value>Configurações</value>
+  </data>
+  <data name="Taskbar_Exit_Title" xml:space="preserve">
+    <value>Sair</value>
+  </data>
+  <data name="Taskbar_Settings_Title" xml:space="preserve">
+    <value>Configurações</value>
+  </data>
+</root>
