@@ -30,7 +30,7 @@ You need the [Microsoft store version](https://apps.microsoft.com/detail/9PFHDD6
 - Open the .exe to start the app.
 - AMWin-RP runs in the background, minimised to the system tray.  
 - Double clicking on the tray icon brings up the settings window.
-  - From here you can adjust individual settings such as run on startup, scrobbling and song detection.  
+- From here you can adjust individual settings such as run on startup, scrobbling and song detection.  
 - The app can be closed by right-clicking on the tray icon and selecting "Exit".  
 - By default, the Apple Music app must be open and currently playing music (i.e. not paused) in order for Rich Presence to show.
 
