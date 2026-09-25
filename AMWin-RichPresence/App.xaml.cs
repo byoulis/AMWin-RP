@@ -1,4 +1,4 @@
-﻿﻿using Hardcodet.Wpf.TaskbarNotification;
+using Hardcodet.Wpf.TaskbarNotification;
 using System;
 using System.Diagnostics;
 using System.Globalization;
@@ -18,6 +18,9 @@ namespace AMWin_RichPresence {
     public partial class App : Application {
         private static readonly CultureInfo InitialUICulture = CultureInfo.CurrentUICulture;
         private const string OpenSettingsWindowArg = "--open-settings-window";
+        private const string SingleInstanceMutexName = "AMWin-RP-SingleInstance-Mutex";
+
+        private static Mutex? singleInstanceMutex;
 
         private TaskbarIcon? taskbarIcon;
         private AppleMusicClientScraper amScraper;
@@ -36,6 +39,7 @@ namespace AMWin_RichPresence {
                 "ru" => "ru",
                 "es" => "es",
                 "es-MX" => "es-MX",
+                "pt-br" => "pt-BR",
                 _ => ""
             };
         }
@@ -83,6 +87,17 @@ namespace AMWin_RichPresence {
         }
 
         public App() {
+            singleInstanceMutex = new Mutex(true, SingleInstanceMutexName, out bool isNewInstance);
+            if (!isNewInstance) {
+                try {
+                    if (!singleInstanceMutex.WaitOne(TimeSpan.FromSeconds(5))) {
+                        Environment.Exit(0);
+                        return;
+                    }
+                } catch (AbandonedMutexException) {
+                }
+            }
+
             ApplyLanguagePreference();
 
             // make logger
@@ -179,6 +194,11 @@ namespace AMWin_RichPresence {
             taskbarIcon?.Dispose();
             discordClient.Disable();
             logger?.Log("Application finished");
+            try {
+                singleInstanceMutex?.ReleaseMutex();
+                singleInstanceMutex?.Dispose();
+            } catch {
+            }
         }
 
         internal void UpdateRPStatusDisplay(AppleMusicDiscordClient.RPStatusDisplayOptions newVal) {
