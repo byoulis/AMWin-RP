@@ -74,6 +74,7 @@ namespace AMWin_RichPresence {
             ComboBoxItem_LanguageRussian.Content = GetLocalisedString("Settings_General_Language_Russian", "Russian (Русский)");
             ComboBoxItem_LanguageSpanish.Content = GetLocalisedString("Settings_General_Language_Spanish", "Spanish - Spain (Español de España)");
             ComboBoxItem_LanguageLatam.Content = GetLocalisedString("Settings_General_Language_Latam", "Spanish - Latin America (Español de Latinoamérica)");
+            ComboBoxItem_LanguagePortugueseBrazil.Content = GetLocalisedString("Settings_General_Language_PortugueseBrazil", "Português (Brasil)");
 
             var selectedLanguage = App.NormalizeLanguageCode(Properties.Settings.Default.Language);
             if (!String.Equals(selectedLanguage, Properties.Settings.Default.Language, StringComparison.Ordinal)) {
@@ -90,6 +91,7 @@ namespace AMWin_RichPresence {
                 "ru" => ComboBoxItem_LanguageRussian,
                 "es" => ComboBoxItem_LanguageSpanish,
                 "es-MX" => ComboBoxItem_LanguageLatam,
+                "pt-BR" => ComboBoxItem_LanguagePortugueseBrazil,
                 _ => ComboBoxItem_LanguageSystem
             };
 
